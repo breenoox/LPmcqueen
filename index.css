@@ -1,0 +1,827 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&display=swap');
+
+body
+{
+            background-color: rgba(189, 208, 255, 1);
+            padding: 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    max-width: 1500px;
+    
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;   
+}
+
+li
+{
+    display: inline-block;
+    margin: 20px;
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+li:hover
+{
+    color: rgba(235, 70, 64, 1);
+    transition: 0.20s all;
+}
+
+.img95
+{
+    max-width: 72px;
+    max-height: 72px;
+}
+
+.cont 
+{
+    display: flex;
+    flex-direction: row;
+    border-top: 0.4px solid white;
+}
+
+.conteudo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;  
+    gap: 200px;
+    margin-top: 200px;
+}
+.McQueenIMG
+{
+    max-width: 600px;
+    max-height: 600px;
+    margin-top: 60px;
+}
+.conteudo2
+{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.h1m
+{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: rgba(235, 70, 64, 1);
+}
+
+.textmc1
+{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+.copac
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+}
+
+.copah
+{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: rgba(235, 70, 64, 1);
+}
+
+.copap
+{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+
+.mctemp
+{
+    font-family: 'Righteous', cursive;
+}
+
+.list
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    width: 500px;
+    border: 2px solid;
+    border-radius: 20px;
+    color: rgba(235, 70, 64, 1);
+}
+
+.listacopa
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 6px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.imgex
+{
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 20px;
+}
+
+.tudocopa
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 250px;
+}
+
+.equipes
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.equipeh
+{
+    font-family: 'Righteous', cursive;
+    font-size: 64px;
+    color: rgba(235, 70, 64, 1);
+    margin-top: 100px;
+}
+
+
+.doc 
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid rgba(5, 0, 255, 1);
+    width: 1500px;
+    height: 180px;
+    padding: 6px;
+    border-radius: 20px;
+    gap: 30px;
+}
+.docimg
+{
+    width: 250px;
+}
+
+
+.doctext
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.h1doc
+{
+    font-family: 'Righteous', cursive;
+    color:  rgba(5, 0, 255, 1);
+    margin-left: -270px;
+}
+
+.pdoc
+{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+
+.sally
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid rgba(0, 102, 255, 1);
+    width: 1500px;
+    height: 180px;
+    padding: 6px;
+    border-radius: 20px;
+    gap: 30px;
+}
+.sallyimg
+{
+    width: 250px;
+}
+
+
+.sallytext
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.h1sally
+{
+    font-family: 'Righteous', cursive;
+    color:  rgba(0, 102, 255, 1);
+    margin-left: 100px;
+}
+
+.psally
+{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+
+.mat
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid rgba(151, 72, 0, 1);
+    width: 1500px;
+    height: 180px;
+    padding: 6px;
+    border-radius: 20px;
+    gap: 30px;
+}
+.matimg
+{
+    width: 250px;
+}
+
+
+.mattext
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.h1mat
+{
+    font-family: 'Righteous', cursive;
+    color:  rgba(151, 72, 0, 1);
+    margin-left: 60px;
+}
+
+.pmat
+{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+
+.mack
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid rgba(255, 0, 0, 1);
+    width: 1500px;
+    height: 180px;
+    padding: 6px;
+    border-radius: 20px;
+    gap: 50px;
+}
+.mackimg
+{
+    width: 230px;
+}
+
+
+.macktext
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.h1mack
+{
+    font-family: 'Righteous', cursive;
+    color:  rgba(255, 0, 0, 1);
+    margin-left: 120px;
+}
+
+.pmack
+{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+
+.luigi
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid rgba(253, 237, 143, 1);
+    width: 1500px;
+    height: 180px;
+    padding: 6px;
+    border-radius: 20px;
+    gap: 30px;
+}
+.luigiimg
+{
+    width: 250px;
+}
+
+
+.luigitext
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.h1luigi
+{
+    font-family: 'Righteous', cursive;
+    color:  rgba(253, 237, 143, 1);
+    margin-left: 250px;
+}
+
+.pluigi
+{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+
+.guido
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid rgba(42, 76, 140, 1);
+    width: 1500px;
+    height: 180px;
+    padding: 6px;
+    border-radius: 20px;
+    gap: 70px;
+}
+.guidoimg
+{
+    width: 210px;
+}
+
+.guidotext
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.h1guido
+{
+    font-family: 'Righteous', cursive;
+    color:  rgba(42, 76, 140, 1);
+    margin-left: 270px;
+}
+
+.pguido
+{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+
+.fillmore
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid rgba(0, 255, 56, 1);
+    width: 1500px;
+    height: 180px;
+    padding: 6px;
+    border-radius: 20px;
+    gap: 30px;
+}
+.fillmoreimg
+{
+    width: 250px;
+}
+
+
+.fillmoretext
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.h1fillmore
+{
+    font-family: 'Righteous', cursive;
+    color:  rgba(0, 255, 56, 1);
+    margin-left: -80px;
+}
+
+.pfillmore
+{
+    font-family: 'Fredoka One', cursive;
+    color: white;
+}
+
+.filmestxt
+{
+    font-family: 'Righteous', cursive;
+    color: rgba(235, 70, 64, 1);
+    font-size: 64px;
+    margin-top: 200px;
+  
+}
+
+
+.carros1, .carros2, .carros3
+{
+    width: 200px;
+}
+
+.filmestudo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.posters
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+    margin-block-end: 200px;
+}
+
+@media screen and (max-width: 1600px) 
+{
+    body
+    {
+        max-width: 1200px;
+    }
+    .doc, .sally, .mat, .mack, .luigi, .guido, .fillmore{
+        max-width: 1200px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1200px) 
+{
+    body
+    {
+        max-width: 1000px;
+    }
+    .doc, .sally, .mat, .mack, .luigi, .guido, .fillmore{
+        max-width: 1000px;
+    }
+    .tudocopa, .list
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .conteudo
+    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .conteudo2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .McQueenIMG
+    {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1000px) 
+{
+    body
+    {
+        max-width: 600px;
+    }
+    .doc, .sally, .mat, .mack, .luigi, .guido, .fillmore
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 600px;
+        height: 320px;
+        padding: 8px;
+        gap: 20px;
+    }
+
+    .doctext, .sallytext, .luigitext, .macktext, .macktext, .guidotext, .fillmoretext
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin: 0;
+        margin-top: 0px;
+        padding: 0px;
+        gap: 0px;
+    }
+
+    .h1luigi, .h1doc, .h1sally, .h1mack, .h1mat, .h1guido, .h1fillmore
+    {
+        margin: 0px;
+        
+
+    }
+
+    .equipes
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 600px;
+    }
+    .h1doc
+    {
+        margin-left: 0px;
+    }
+
+    .imgex
+    {
+        max-width: 900;
+    }
+
+    .tudocopa, .list
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .filmestudo, .posters
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 900px;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    body, .container
+    {
+        max-width: 300px;
+    }
+
+    .img95
+    {
+        display: none;
+    }
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+    }
+    .McQueenIMG
+    {
+        max-width: 300px;
+    }
+    .conteudo
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        gap: 20px;
+    }
+    .copac{
+        margin-top: 100px;
+    }
+    .doc, .sally, .mat, .mack, .luigi, .guido, .fillmore
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 380px;
+        padding: 8px;
+        gap: 20px;
+    }
+
+    .doctext, .sallytext, .luigitext, .macktext, .macktext, .guidotext, .fillmoretext
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin: 0;
+        margin-top: 0px;
+        padding: 0px;
+        gap: 0px;
+    }
+
+    .h1luigi, .h1doc, .h1sally, .h1mack, .h1mat, .h1guido, .h1fillmore
+    {
+        margin: 0px;
+    }
+
+    .equipes
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+    }
+    
+    .imgex
+    {
+        max-width: 300px;
+    }
+
+    .tudocopa, .list
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+        gap: 50px;
+    }
+    .filmestudo, .posters
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 300px;
+        gap: 40px;
+    }
+    .filmestxt
+    {
+        margin-top: 100px;
+    }
+    .mctemp
+    {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 300px) 
+{
+    body, .container
+    {
+        max-width: 100px;
+        
+    }
+
+    .img95
+    {
+        display: none;
+    }
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100px;
+    }
+    .McQueenIMG
+    {
+        max-width: 200px;
+    }
+    .conteudo
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        gap: 20px;
+        max-width: 100px;
+    }
+    .conteudo2
+    {
+        max-width: 100px;
+    }
+    .copac{
+        margin-top: 100px;
+    }
+    .doc
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 250px;
+        height: 800px;
+        padding: 8px;
+        gap: 20px;
+    }
+    .sally, .mat, .mack, .luigi, .guido, .fillmore
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 250px;
+        height: 520px;
+        padding: 8px;
+        gap: 20px;
+    }
+
+    .doctext, .sallytext, .luigitext, .macktext, .macktext, .guidotext, .fillmoretext
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin: 0;
+        margin-top: 0px;
+        padding: 0px;
+        gap: 0px;
+        max-width: 100px;
+    }
+
+    .h1luigi, .h1doc, .h1sally, .h1mack, .h1mat, .h1guido, .h1fillmore
+    {
+        margin: 0px;
+    }
+
+    .equipes
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100px;
+        gap: 20px;
+    }
+    
+    .imgex
+    {
+        max-width: 300px;
+    }
+
+    .tudocopa, .list
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100px;
+        gap: 50px;
+    }
+    .filmestudo, .posters
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100px;
+        gap: 40px;
+    }
+    .list
+    {
+       border: none;
+    }
+    .filmestxt
+    {
+        margin-top: 100px;
+    }
+    .mctemp
+    {
+        margin: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
